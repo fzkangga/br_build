@@ -656,6 +656,7 @@ function lunch()
 
     export BR_OFFICIAL_CH=$(get_build_var BR_OFFICIAL)
     export TARGET_PRODUCT=$product
+    export AB_OTA_UPDATER=$(get_build_var AB_OTA_UPDATER)
     export TARGET_BUILD_VARIANT=$variant
     export TARGET_PLATFORM_VERSION=$(get_build_var TARGET_PLATFORM_VERSION)
     export TARGET_BUILD_TYPE=release
