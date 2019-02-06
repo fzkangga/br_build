@@ -655,6 +655,7 @@ function lunch()
     export CUSTOM_BUILD
 
     export BR_OFFICIAL_CH=$(get_build_var BR_OFFICIAL)
+    export BR_FORCE_DD_FLASH=$(get_build_var BR_FORCE_DD_FLASH)
     export TARGET_PRODUCT=$product
     export AB_OTA_UPDATER=$(get_build_var AB_OTA_UPDATER)
     export TARGET_BUILD_VARIANT=$variant
